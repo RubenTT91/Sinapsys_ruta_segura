@@ -1,3 +1,5 @@
+import { CiLinkedin } from "react-icons/ci";
+import { FaGithub } from "react-icons/fa";
 import "./Footer.css";
 
 const Footer = () => {
@@ -14,8 +16,9 @@ const Footer = () => {
         </div>
 
         <div className="footer-social">
-          <a href="#">🌍</a> 
-          <a href="#">📘</a> 
+          <a href="#"><CiLinkedin />
+          </a> 
+          <a href="#"><FaGithub /></a> 
           <a href="#">📷</a> 
         </div>
 
