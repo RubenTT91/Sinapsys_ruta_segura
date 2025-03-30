@@ -30,15 +30,20 @@
   color: white;
   text-decoration: none;
   margin: 0 10px;
-  font-size: 0.9rem;
+  font-size: 1rem;
 }
 
 .footer-links a:hover {
-  text-decoration: underline;
+  text-decoration: underline;  
 }
 
-.footer-social {
-  margin: 10px 0;
+.footer-social {  
+  font-size: 1em;
+}
+
+.footer-social.icons a svg{
+  width: 40px;
+  height: 40px;
 }
 
 .footer-social a {
@@ -49,6 +54,7 @@
 
 .footer-social a:hover {
   opacity: 0.7;
+  color: aqua;
 }
 
 .copyright {

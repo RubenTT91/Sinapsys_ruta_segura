@@ -1,5 +1,6 @@
 import { CiLinkedin } from "react-icons/ci";
-import { FaGithub } from "react-icons/fa";
+import {FaGithub } from "react-icons/fa";
+
 import "./Footer.css";
 
 const Footer = () => {
@@ -15,15 +16,13 @@ const Footer = () => {
           <a href="#">Términos y Condiciones</a>
         </div>
 
-        <div className="footer-social">
-          <a href="#"><CiLinkedin />
-          </a> 
-          <a href="#"><FaGithub /></a> 
-          <a href="#">📷</a> 
+        <div className="footer-social icons">
+          <a href="#"><CiLinkedin /></a> 
+          <a href="#"><FaGithub/>  </a>           
         </div>
 
         <p className="copyright">
-          &copy; {new Date().getFullYear()} Sinapsys. Todos los derechos reservados.
+          &copy; {new Date().getFullYear()} Sinapsys. Todos los derechos reservados..
         </p>
       </div>
     </footer>
