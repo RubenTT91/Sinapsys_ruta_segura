@@ -1,8 +1,15 @@
 import React from "react";
+import { useNavigate } from "react-router-dom";
+import { FaRegUserCircle } from "react-icons/fa";
 
-import "./header.css";
+import "./Header.css";
 
 const Header = () => {
+
+  const useNavigate = useNavigate();
+  const HandleNavigation = () => {
+    useNavigate("/enterprise");
+  };
   return (
     <header>
       <img src="/sinapsys-logo.png" alt="Logo de Sinapsys" width="200" />
@@ -19,9 +26,9 @@ const Header = () => {
             className="search-input"
           />
         </div>
-        <button className="search-button">Buscar Ruta</button>        
+        <button className="search-button">Buscar Ruta</button>
       </div>
-      <button className="header-user-icon">👤</button>
+      <button className="header-user-icon" onClick={HandleNavigation}><FaRegUserCircle /></button>
     </header>
   );
 };
