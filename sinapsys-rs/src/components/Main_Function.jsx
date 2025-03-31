@@ -8,10 +8,7 @@ return(
             <a class="nav-link active" aria-current="page" href="#">
               Empresa
             </a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#"></a>
-          </li>
+          </li>          
           <li class="nav-item">
             <a class="nav-link" href="#">
               Usuarios
