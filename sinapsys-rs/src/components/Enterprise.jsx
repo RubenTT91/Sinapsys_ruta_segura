@@ -1,20 +1,12 @@
 import React from "react";
+import NavBar from "./Main_Function";
 
 const Enterprise = () => {
   return (
     <div>
       <header>
-        <img src="/sinapsys-logo.png" alt="Logo de Sinapsys" width="200" />
-        <div className="navbar">
-          <nav>
-            <ul>
-              <li>Inicio</li>
-              <li>Sobre Nosotros</li>
-              <li>Contacto</li>
-            </ul>
-          </nav>
-          <button className="search-button">Buscar Ruta</button>
-        </div>
+        <img src="/sinapsys-logo.png" alt="Logo de Sinapsys" width="200" />       
+        <NavBar />
         <button className="header-user-icon">👤</button>
       </header>
     </div>
