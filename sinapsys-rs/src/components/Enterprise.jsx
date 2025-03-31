@@ -7,7 +7,7 @@ const Enterprise = () => {
       <header>
         <img src="/sinapsys-logo.png" alt="Logo de Sinapsys" width="200" />       
         <NavBar />
-        <button className="header-user-icon">👤</button>
+        <button type="button" class="btn-close" disabled aria-label="Close"></button>
       </header>
     </div>
   );

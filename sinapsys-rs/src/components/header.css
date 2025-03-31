@@ -2,9 +2,18 @@
 
 header {
     display: flex;
+    min-width: 80%;
+    max-width: 80%;
+    min-height: 150px;
+    max-height: 150px;
+    margin: 0 auto;
+    padding: 30px 30px;
     justify-content: space-between;    
     align-items: center;
-    padding: 0 30px;
+}
+
+.main-component{
+    min-width:50%;
 }
 
 .header-logo {
