@@ -1,5 +1,6 @@
 import React from "react";
-import "./FromTo.css";
+import "../css/FromTo.css"; 
+
 
 const FromTo = () => {
   return (

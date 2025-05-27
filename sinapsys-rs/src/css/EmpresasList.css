@@ -1,0 +1,91 @@
+.lista-empresas-container{
+    width: 80%;
+    margin: auto;
+}
+.tabla-empresas {
+  width: 80%;
+  border-collapse: collapse;
+  margin: auto ;
+  margin-top: 20px;    
+  font-size: 16px;
+  color: #333;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.05);
+  border-radius: 8px;
+  overflow: hidden;
+}
+
+.tabla-empresas thead {
+  background-color: #007bff;
+  color: white;
+}
+
+.tabla-empresas th,
+.tabla-empresas td {
+  padding: 14px 18px;
+  border-bottom: 1px solid #ddd;
+  text-align: left;
+}
+
+.tabla-empresas tr:nth-child(even) {
+  background-color: #f2f7fd;
+}
+
+.tabla-empresas tr:hover {
+  background-color: #e8f0fc;
+  cursor: pointer;
+  transition: background-color 0.2s ease-in-out;
+}
+
+.tabla-empresas th {
+  font-weight: 600;
+  letter-spacing: 0.5px;
+}
+
+.boton-accion {
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  padding: 6px 12px;
+  font-size: 14px;
+  margin-right: 8px;
+  cursor: pointer;
+  transition: background-color 0.2s ease;
+}
+
+.boton-accion:hover {
+  background-color: #0056b3;
+}
+
+.boton-eliminar {
+  background-color: #dc3545;
+}
+
+.boton-eliminar:hover {
+  background-color: #a71d2a;
+}
+
+.barra-superior-tabla {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  margin: 20px auto;
+  width: 80%;
+}
+
+.btn-agregar-empresa {
+  background-color: #007bff;
+  color: white;
+  border: none;
+  padding: 10px 18px;
+  border-radius: 5px;
+  font-size: 14px;
+  font-weight: 500;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.btn-agregar-empresa:hover {
+  background-color: #0056b3;
+}

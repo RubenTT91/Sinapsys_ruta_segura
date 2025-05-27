@@ -1,0 +1,71 @@
+.empresa-form-container {
+  max-width: 600px;
+  margin: 2rem auto;
+  padding: 2rem 2.5rem;
+  border: 1px solid #dee2e6;
+  border-radius: 10px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.05);
+  background-color: #ffffff;
+  font-family: 'Segoe UI', sans-serif;
+  color: #333;
+}
+
+.empresa-form-container h2 {
+  text-align: center;
+  font-size: 22px;
+  margin-bottom: 1.8rem;
+  color: #007bff;
+}
+
+.empresa-form-container input,
+.empresa-form-container select {
+  width: 100%;
+  padding: 0.65rem 1rem;
+  margin-bottom: 1.2rem;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  font-size: 16px;
+  transition: border-color 0.2s;
+}
+
+.empresa-form-container input:focus,
+.empresa-form-container select:focus {
+  outline: none;
+  border-color: #007bff;
+  box-shadow: 0 0 0 2px rgba(0, 123, 255, 0.15);
+}
+
+.empresa-form-row {
+  display: flex;
+  gap: 1rem;
+}
+
+.empresa-form-row input {
+  flex: 1;
+}
+
+.empresa-form-buttons {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 2rem;
+}
+
+.empresa-form-buttons button {
+  padding: 0.6rem 2rem;
+  font-size: 16px;
+  font-weight: bold;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  background-color: #007bff;
+  color: #fff;
+  transition: background-color 0.3s ease;
+}
+
+.empresa-form-buttons button:hover {
+  background-color: #0056b3;
+}
+
+.empresa-form-buttons button:active {
+  background-color: #004494;
+}

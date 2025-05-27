@@ -6,7 +6,7 @@ import { FaRegUserCircle } from "react-icons/fa";
 import { IoMdCloseCircleOutline } from "react-icons/io";
 
 
-import "./Header.css";
+import "../css/Header.css";
 
 const Header = () => {
   const [mainComponentActive, setMainComponentActive] = useState(<FromTo />);
@@ -26,6 +26,7 @@ const Header = () => {
     <header>
       <img src="/sinapsys-logo.png" alt="Logo de Sinapsys" width="200" />
       <div className="main-component">{mainComponentActive}</div>
+     
       <button
         className="header-user-icon"
         onClick={() => {
@@ -35,6 +36,7 @@ const Header = () => {
       >
         <FaRegUserCircle />
       </button>
+      
       <button
         className="header-user-icon"
         onClick={() => {setFromTo();}}      >
